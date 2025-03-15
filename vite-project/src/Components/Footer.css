@@ -1,0 +1,14 @@
+/* src/Footer.css */
+footer {
+    margin-top: auto;
+    background-color: #ffdbe9;
+    color: #fff;
+    padding: 5px;
+    text-align: center;
+}
+
+footer p{
+    text-align: center;
+    color: #FF007F;
+}
+  

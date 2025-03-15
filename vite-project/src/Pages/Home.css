@@ -1,0 +1,32 @@
+.home {
+    margin : 2rem;
+    margin-left: 8rem;
+    margin-right: 8rem;
+    text-align: justify;
+}
+
+h1 {
+    text-align : center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 300;
+    color : #DA1884;
+    padding-top: 1rem;
+    padding-bottom: 2rem;;
+}
+
+h2 {
+    text-align : center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 300;
+    color : #DA1884;
+}
+
+p {
+    text-align : justify;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 200;
+    font-size: 20px;
+    line-height: 1.5;
+    justify-content: space-between;
+    color: #E75480
+}

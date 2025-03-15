@@ -1,0 +1,8 @@
+{
+  "name": "REACT",
+  "version": "1.0.0",
+  "description": "Website",
+  "main": "main.tsx",
+  "author": "Pravallika",
+  "license": "MIT"
+}

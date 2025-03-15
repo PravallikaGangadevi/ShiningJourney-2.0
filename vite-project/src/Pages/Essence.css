@@ -1,0 +1,25 @@
+.Content {
+    margin : 2rem;
+    margin-left: 8rem;
+    margin-right: 8rem;
+    text-align: justify;
+}
+
+h1 {
+    text-align : center;
+    margin: 0;
+    padding: 0px 0px 0px 0px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 200;
+    color : #FF007F
+}
+
+p {
+    text-align : justify;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 200;
+    font-size: 20px;
+    line-height: 1.5;
+    justify-content: space-between;
+    color: #FF007F
+}

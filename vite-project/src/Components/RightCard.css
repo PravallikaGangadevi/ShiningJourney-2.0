@@ -1,0 +1,23 @@
+/* ContainerRight.css */
+
+.container.right {
+    right: 0px !important;
+  }
+  
+  .right::before {
+    content: " ";
+    height: 0;
+    position: absolute;
+    top: 22px;
+    width: 0;
+    z-index: 1;
+    right : 0px !important;
+    border: medium solid white;
+    border-width: 10px 10px 10px 0;
+    border-color: transparent white transparent transparent;
+  }
+  
+  .right::after {
+    right: 0px;
+  }
+  

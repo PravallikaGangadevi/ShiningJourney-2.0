@@ -1,0 +1,50 @@
+.card {
+    position: relative;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding-left: 20px;
+    padding-right: 20px;
+    max-width: calc(100% - 40px); /* Adjust for padding */
+    overflow-y: auto; /* Enable vertical scroll if content exceeds height */
+    max-height: calc(100% - 40px); /* Adjust for padding */
+    min-height: 100%; /* Set minimum height equal to container's height */
+    display: flex; /* Make the card a flex container */
+    flex-direction: column; /* Arrange children in a column */
+    overflow-x: hidden; /* Hide horizontal overflow */
+  }
+  
+  
+  .card .text p {
+    white-space: pre-wrap; /* Allow whitespace to wrap */
+    overflow-wrap: break-word; /* Break words when necessary */
+    color: #FB0081;
+  }
+  
+  
+  .head {
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #C90067;
+    text-align: center; /* Align the heading to the center */
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 1;
+    width: 100%; /* Ensure the heading takes up the full width */
+    margin-top: 0px;
+    padding-top: 0px;
+  }
+  
+  .datetime {
+    position: sticky;
+    text-align: right;
+    bottom: 0;
+    right: 0;
+    padding: 0; /* Remove padding */
+    background-color: white;
+    color: #C71585 ;/*#FE036A*/
+    z-index: 1;
+    margin: 0; /* Remove margin */
+    padding: 0; /* Remove padding */
+  }

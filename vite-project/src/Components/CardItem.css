@@ -1,0 +1,39 @@
+.card {
+  width: 500px;
+  height: 500px;
+  background: #FEC5E5;
+  color: #FF007F;
+  border-radius: 5px;
+  text-align: center;
+  margin:0;
+  padding:0;
+  overflow-y: auto;
+}
+  
+  /* Add color to scrollbar */
+.card::-webkit-scrollbar {
+  width: 10px;
+}
+
+.card::-webkit-scrollbar-thumb {
+  background-color: #FF007F; /* Set scrollbar thumb color */
+  border-radius: 10px;
+}
+
+.card p{
+  margin: 20px;
+  word-wrap: break-word;
+  color:#FF007F;
+  text-align: justify;
+  font-size: 18px;
+}
+
+.datetime {
+  position: auto;
+  text-align: right;
+  bottom: 0;
+  right: 0;
+  padding: 5px; /* Add padding as needed */
+  color: #f02fb0;
+  z-index: 1;
+}
