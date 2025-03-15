@@ -7,7 +7,7 @@ import logo from "../assets/logo.svg"
 const Navbar: React.FC = () => {
     console.log(window.location.pathname)
 
-    function CustomLink({to, children, ...props}) {
+    function CustomLink({to, children, ...props}: {to: string, children: React.ReactNode, [key: string]: any}) {
         const resolvedPath = useResolvedPath(to)
         const isActive = useMatch({ path: resolvedPath.pathname, end : true})
         return (
@@ -18,6 +18,7 @@ const Navbar: React.FC = () => {
             </li>
         )
     }
+
     
     return(
         <nav className = 'navbar'>
